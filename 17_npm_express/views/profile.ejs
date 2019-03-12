@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+Name: <%= person.name %> </br>
+Age: <%= person.age %> </br>
+Skills:
+
+<ul>
+     <% person.skills.forEach(function(item){%>
+             <li> <%=item%> </li>
+     <%});%>
+</ul>
+
+  </body>
+</html>
