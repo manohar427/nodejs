@@ -4,6 +4,9 @@ var app = express();
 
 app.set('view engine','ejs');
 
+app.use('/xxx',express.static('cssfiles'));
+
+
 app.get('/',function(req,res){
                   	res.send('Hi');
             });
