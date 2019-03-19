@@ -21,25 +21,25 @@ body{
 }
 
 input[type="text"]{
-    width: 70%;
-    padding: 20px;
+    width: 50%;
+    padding: 5px;
     background:#181c22;
     border: 0;
     float: left;
-    font-size: 20px;
+    font-size: 8px;
     color: #989898;
 }
 
 button{
-    padding: 20px;
-    width: 30%;
+    padding: 5px;
+    width: 10%;
     float: left;
     background: #23282e;
     border: 0;
     box-sizing: border-box;
     color: #fff;
     cursor: pointer;
-    font-size: 20px;
+    font-size: 8px;
 }
 
 ul{
@@ -50,10 +50,10 @@ ul{
 
 li{
     width: 100%;
-    padding: 20px;
+    padding: 10px;
     box-sizing: border-box;
     font-family: arial;
-    font-size: 20px;
+    font-size: 10px;
     cursor: pointer;
     letter-spacing: 1px;
 }

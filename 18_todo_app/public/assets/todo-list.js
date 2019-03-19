@@ -20,7 +20,9 @@ $(document).ready(function(){
   });
 
   $('li').on('click', function(){
+    console.log('Delete request received...');
       var item = $(this).text().replace(/ /g, "-");
+      console.log('Delete request received...');
       $.ajax({
         type: 'DELETE',
         url: '/todo/' + item,
